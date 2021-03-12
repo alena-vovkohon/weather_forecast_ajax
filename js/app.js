@@ -106,7 +106,7 @@ let img = document.createElement('img');
 img.classList.add('img-update');
 updateDiv.appendChild(img);
 div2.appendChild(updateDiv);
-img.setAttribute('src', 'img/iconfinder2.png');
+img.setAttribute('src', 'build/img/iconfinder2.png');
 let update = updateDiv.firstChild;
 // console.log(update);
 update.addEventListener('click', function () {
